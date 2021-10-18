@@ -3,11 +3,11 @@
     <head>
         <meta charset="utf-8">
         <title>原神抽卡模拟</title>
-        <link rel="stylesheet" href="css/style.css" type="text/css" />
+        <link rel="stylesheet" href="style.css" type="text/css" />
         <script>
-            loadAll();
             var a=0;
             var b=0;
+            var d=0;
             function suiji(){
                 var x=1
                 var y=10000
@@ -81,9 +81,9 @@
                 else{
                         document.getElementById("2").innerHTML = "Sorry, your browser does not support web storage...";
                 }
+                d++;
                 var mc = document.getElementById("1").innerHTML;
-                var lx = document.getElementById("2").innerHTML;
-                localStorage.setItem(mc, lx);
+                localStorage.setItem(d, mc);
                 loadAll();
             }
             function clear1(){
@@ -93,19 +93,20 @@
                 console.log(storage);
                 storage.clear();
                 console.log(storage);
-                document.getElementById("2").innerHTML = "你已经抽了 0 次。"; 
+                document.getElementById("2").innerHTML = "你已经抽了 0 次。";
+                d=0; 
                 loadAll();
             }
             function loadAll(){  
                 var list = document.getElementById("list");  
-                if(localStorage.length>0){  
-                    var result = "<table border='1'>";  
+                if(localStorage.length>1){  
+                    var result = "<table border='1' rules='all'>";  
                     result += "<tr><td>类型</td><td>名称</td><td>祈愿时间</td></tr>";  
-                    for(var i=0,j=1;i<localStorage.length;i++,j++){  
-                        var mc = localStorage.key(i);  
-                        var lx = localStorage.getItem(mc); 
+                    for(var i=1,j=1;i<localStorage.length;i++,j++){  
+                        var wu = localStorage.key(i);  
+                        var mc = localStorage.getItem(i); 
                         var time = Date();
-                        result += "<tr><td>"+lx+"</td><td>"+mc+"</td><td>"+time+"</td></tr>";  
+                        result += "<tr><td>武器</td><td>"+mc+"</td><td>"+time+"</td></tr>";  
                     }  
                     result += "</table>";  
                     list.innerHTML = result;  
@@ -113,7 +114,8 @@
                 else{  
                 list.innerHTML = "数据为空……";  
                 }  
-            }      
+            }
+            loadAll();      
         </script>
     </head>
     <body>
