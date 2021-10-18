@@ -3,8 +3,9 @@
     <head>
         <meta charset="utf-8">
         <title>原神抽卡模拟</title>
-        <link rel="stylesheet" href="css/style.css" type="text/css" />
+        <link rel="stylesheet" href="style.css" type="text/css" />
         <script>
+            loadAll();
             var a=0;
             var b=0;
             function suiji(){
@@ -79,8 +80,40 @@
                 } 
                 else{
                         document.getElementById("2").innerHTML = "Sorry, your browser does not support web storage...";
-                    }
+                }
+                var mc = document.getElementById("1").innerHTML;
+                var lx = document.getElementById("2").innerHTML;
+                localStorage.setItem(mc, lx);
+                loadAll();
             }
+            function clear1(){
+                var storage=window.localStorage;
+                storage.a=1;
+                storage.setItem("c",3);
+                console.log(storage);
+                storage.clear();
+                console.log(storage);
+                document.getElementById("2").innerHTML = "你已经抽了 0 次。"; 
+                loadAll();
+            }
+            function loadAll(){  
+                var list = document.getElementById("list");  
+                if(localStorage.length>0){  
+                    var result = "<table border='1'>";  
+                    result += "<tr><td>类型</td><td>名称</td><td>祈愿时间</td></tr>";  
+                    for(var i=0,j=1;i<localStorage.length;i++,j++){  
+                        var mc = localStorage.key(i);  
+                        var lx = localStorage.getItem(mc); 
+                        var time = Date();
+                        result += "<tr><td>"+lx+"</td><td>"+mc+"</td><td>"+time+"</td></tr>";  
+                    }  
+                    result += "</table>";  
+                    list.innerHTML = result;  
+                }
+                else{  
+                list.innerHTML = "数据为空……";  
+                }  
+            }      
         </script>
     </head>
     <body>
@@ -94,7 +127,7 @@
         <br>
         <br>
         <br>
-        
+
         <h1 id="1" align="center">
         ?
         </h1>
@@ -102,8 +135,15 @@
             <button type="button" onclick="suiji()" >抽一次</button>
         </h2 >
         <h3 id="2" align="center">
-
+                   
         </h3>
+        <h4 align="center">
+            <button type="button" onclick="clear1()" >清除所有记录</button>
+        </h4>
+        <h5>
+            <div id="list" align="center">
 
+            </div>
+        </h5>
     </body>
 </html>
