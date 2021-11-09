@@ -8,6 +8,10 @@
             var a=0;
             var b=0;
             var d=0;
+            var mingc;
+            var mingCheng = ["0"];
+            var time = ["0"];
+            var yuanshi=0;
             function suiji(){
                 var x=1
                 var y=10000
@@ -24,50 +28,71 @@
                     if(result>0 && result<31 ){
                         document.getElementById("1").innerHTML="[公子]达达利亚";
                         a=0;
+                        images="<img src='/images/1'>"
+                        mingc="1";
                     }
                     else if(result>30 && result<37){
                         document.getElementById("1").innerHTML="刻晴";
                         a=0;
+                        mingc="1";
                     }
                     else if(result>36 && result<42){
                         document.getElementById("1").innerHTML="莫娜";
                         a=0;
+                        mingc="1";
                     }
                     else if(result>41 && result<49){
                         document.getElementById("1").innerHTML="七七";
                         a=0;
+                        mingc="1";
                     }
                     else if(result>48 && result<55){
                         document.getElementById("1").innerHTML="迪卢克";
                         a=0;
+                        mingc="1";
                     }
                     else {
                         document.getElementById("1").innerHTML="琴";
                         a=0;   
+                        mingc="1";
                     }
+                    b=0;
                 }
-                else if(result>60 && result<316){
-                    for(var i=0,j=0;i<27;i++,j+=8){
+                else if(result>60 && result<181){
+                    for(var i=0,j=0;i<15;i++,j+=8){
                         if(result>(60+j) && result<(69+j)){
                             var clas=['九条裟罗','早柚','罗莎莉亚','辛焱','砂糖','迪奥娜','诺艾尔','班尼特','菲谢尔','行秋','北斗',
-                            '香菱','雷泽','芭芭拉','弓藏','祭礼弓','绝弦','西风猎弓','昭心','祭礼残章','流浪乐章','西风秘典','西风长枪',
-                            '匣里灭辰','雨裁','祭礼大剑','笛剑','西风剑'];
+                            '香菱','雷泽','芭芭拉'];
                             document.getElementById("1").innerHTML=clas[i];
-                            b=0;
+                            mingc="1";
                         }
                     }
+                    b=0;
+                }
+                else if(result>180 && result<316){
+                    for(var i=0,j=0;i<15;i++,j+=8){
+                        if(result>(180+j) && result<(189+j)){
+                            var clas=['弓藏','祭礼弓','绝弦','西风猎弓','昭心','祭礼残章','流浪乐章','西风秘典','西风长枪',
+                            '匣里灭辰','雨裁','祭礼大剑','笛剑','西风剑'];
+                            document.getElementById("1").innerHTML=clas[i];
+                            mingc="2";
+                        }
+                    }
+                    b=0;
                 }
                 else if(result>315 && result<571){
                     for(var i=0,j=0;i<2;i++,j+=85){
                         if(result>(315+j) && result<(401+j)){
                             var clas=['烟绯','重云','凝光'];
                             document.getElementById("1").innerHTML=clas[i];
-                            b=0;
+                            mingc="1";
                         }
                     }
+                    b=0;
                 }
                 else{
                     document.getElementById("1").innerHTML="三星武器";
+                    mingc="2";
                 }
                 if(typeof(Storage) !== "undefined") {
                         if (localStorage.clickcount) {
@@ -84,6 +109,10 @@
                 d++;
                 var mc = document.getElementById("1").innerHTML;
                 localStorage.setItem(d, mc);
+                var time1 = Date();
+                mingCheng.push(mingc);
+                time.push(time1);
+                yuanshi -= 160;
                 loadAll();
             }
             function clear1(){
@@ -94,19 +123,30 @@
                 storage.clear();
                 console.log(storage);
                 document.getElementById("2").innerHTML = "你已经抽了 0 次。";
-                d=0; 
+                d=0;
+                a=0;
+                b=0;
+                mingCheng = ["0"]; 
+                time = ["0"];
                 loadAll();
             }
             function loadAll(){  
+                var mingcc;
                 var list = document.getElementById("list");  
                 if(localStorage.length>1){  
                     var result = "<table border='1' rules='all'>";  
                     result += "<tr><td>类型</td><td>名称</td><td>祈愿时间</td></tr>";  
-                    for(var i=1,j=1;i<localStorage.length;i++,j++){  
-                        var wu = localStorage.key(i);  
+                    for(var i=1,j=1;i<localStorage.length;i++,j++){
+                        mingc = mingCheng[i];
+                        if(mingc == 1){
+                            mingcc = "角色";
+                        }
+                        else{
+                            mingcc = "武器";
+                        }
+                        time1 = time[i];
                         var mc = localStorage.getItem(i); 
-                        var time = Date();
-                        result += "<tr><td>武器</td><td>"+mc+"</td><td>"+time+"</td></tr>";  
+                        result += "<tr><td>"+mingcc+"</td><td align='center'>"+mc+"</td><td>"+time1+"</td></tr>";  
                     }  
                     result += "</table>";  
                     list.innerHTML = result;  
@@ -115,11 +155,13 @@
                 list.innerHTML = "数据为空……";  
                 }  
             }
+            function chongzhi(){
+                yuanshi+=160;
+            }
             loadAll();      
         </script>
     </head>
     <body>
-        <br>
         <br>
         <br>
         <br>
@@ -142,10 +184,10 @@
         <h4 align="center">
             <button type="button" onclick="clear1()" >清除所有记录</button>
         </h4>
-        <h5>
+        <h1>
             <div id="list" align="center">
 
             </div>
-        </h5>
+        </h1>
     </body>
 </html>
