@@ -1,974 +1,190 @@
-<!DOCTYPE html>
-
-
-<html lang="en">
-  
-
-    <head>
-      <meta charset="utf-8" />
-        
-      <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1, maximum-scale=1"
-      />
-      <title> Hexo</title>
-  <meta name="generator" content="hexo-theme-ayer">
-      
-      <link rel="shortcut icon" href="/favicon.ico" />
-       
-<link rel="stylesheet" href="/dist/main.css">
-
-      
-<link rel="stylesheet" href="/css/fonts/remixicon.css">
-
-      
-<link rel="stylesheet" href="/css/custom.css">
- 
-      <script src="https://cdn.staticfile.org/pace/1.2.4/pace.min.js"></script>
-       
- 
-
-      <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-bulma@5.0.1/bulma.min.css"
-      />
-      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.min.js"></script>
-
-      <!-- mermaid -->
-      
-      <style>
-        .swal2-styled.swal2-confirm {
-          font-size: 1.6rem;
-        }
-      </style>
-    </head>
-  </html>
-</html>
-
-
-<body>
-  <div id="app">
-    
-      
-    <main class="content on">
-      
-<section class="cover">
-    
-      
-      <a class="forkMe" href="https://github.com/Shen-Yu/hexo-theme-ayer"
-        target="_blank"><img width="149" height="149" src="/images/forkme.png"
-          class="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1"></a>
-    
-  <div class="cover-frame">
-    <div class="bg-box">
-      <img src="/images/cover1.jpg" alt="image frame" />
-    </div>
-    <div class="cover-inner text-center text-white">
-      <h1><a href="/">Hexo</a></h1>
-      <div id="subtitle-box">
-        
-        <span id="subtitle"></span>
-        
-      </div>
-      <div>
-        
-      </div>
-    </div>
-  </div>
-  <div class="cover-learn-more">
-    <a href="javascript:void(0)" class="anchor"><i class="ri-arrow-down-line"></i></a>
-  </div>
-</section>
-
-
-
-<script src="https://cdn.staticfile.org/typed.js/2.0.12/typed.min.js"></script>
-
-
-<!-- Subtitle -->
-
-  <script>
-    try {
-      var typed = new Typed("#subtitle", {
-        strings: ['面朝大海，春暖花开', '愿你一生努力，一生被爱', '想要的都拥有，得不到的都释怀'],
-        startDelay: 0,
-        typeSpeed: 200,
-        loop: true,
-        backSpeed: 100,
-        showCursor: true
-      });
-    } catch (err) {
-      console.log(err)
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Hexo</title><meta name="author" content="John Doe"><meta name="copyright" content="John Doe"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: 'Just',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
     }
-  </script>
-  
-<div id="main">
-  <section class="outer">
-  
-  <ul class="ads">
-    
-        <li>
-            <a target="_blank" rel="noopener" href="https://curl.qcloud.com/kvO7hb43">
-                <img src="https://pic.imgdb.cn/item/62174b452ab3f51d912a5ccc.jpg" width="300" alt="云服务器限时秒杀">
-            </a>
-        </li>
-    
-        <li>
-            <a target="_blank" rel="noopener" href="https://www.vultr.com/?ref=8630075">
-                <img src="https://pic.imgdb.cn/item/62174b452ab3f51d912a5cd7.png" width="300" alt="vultr优惠vps">
-            </a>
-        </li>
-    
-</ul>
-  
-  
-  
-
-<div class="notice" style="margin-top:50px">
-    <i class="ri-heart-fill"></i>
-    <div class="notice-content" id="broad"></div>
-</div>
-<script type="text/javascript">
-    fetch('https://v1.hitokoto.cn')
-        .then(response => response.json())
-        .then(data => {
-            document.getElementById("broad").innerHTML = data.hitokoto;
-        })
-        .catch(console.error)
-</script>
-
-<style>
-    .notice {
-        padding: 20px;
-        border: 1px dashed #e6e6e6;
-        color: #969696;
-        position: relative;
-        display: inline-block;
-        width: 100%;
-        background: #fbfbfb50;
-        border-radius: 10px;
-    }
-
-    .notice i {
-        float: left;
-        color: #999;
-        font-size: 16px;
-        padding-right: 10px;
-        vertical-align: middle;
-        margin-top: -2px;
-    }
-
-    .notice-content {
-        display: initial;
-        vertical-align: middle;
-    }
-</style>
-  
-  <article class="articles">
-    
-    
-    
-    
-    <article
-  id="post-基于编码的许可链数据存储方案研究"
-  class="article article-type-post"
-  itemscope
-  itemprop="blogPost"
-  data-scroll-reveal
->
-  <div class="article-inner">
-    
-    <header class="article-header">
-       
-<h2 itemprop="name">
-  <a class="article-title" href="/2023/09/11/%E5%9F%BA%E4%BA%8E%E7%BC%96%E7%A0%81%E7%9A%84%E8%AE%B8%E5%8F%AF%E9%93%BE%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8%E6%96%B9%E6%A1%88%E7%A0%94%E7%A9%B6/"
-    >基于编码的许可链数据存储方案研究</a> 
-</h2>
- 
-
-      
-    </header>
-     
-    <div class="article-meta">
-      <a href="/2023/09/11/%E5%9F%BA%E4%BA%8E%E7%BC%96%E7%A0%81%E7%9A%84%E8%AE%B8%E5%8F%AF%E9%93%BE%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8%E6%96%B9%E6%A1%88%E7%A0%94%E7%A9%B6/" class="article-date">
-  <time datetime="2023-09-11T13:30:29.000Z" itemprop="datePublished">2023-09-11</time>
-</a>    
-    </div>
-      
-    <div class="article-entry" itemprop="articleBody">
-       
-  <h1 id="区块链"><a href="#区块链" class="headerlink" title="区块链"></a>区块链</h1><p><strong>区块链本质上是一个去中心化数据库</strong>。是一种分布式数据存储，点对点传输，共识机制，加密算法等计算机技术的新型应用模式。</p>
-<p>举个例子：</p>
-<p>比如说小明找大康借一百块钱，但大康怕他赖账，于是就找来村长做公证，并记录下这笔账，这个就叫<strong>中心化</strong>。但如果，你不找村长，直接拿个喇叭在村里大喊“我大康借给小明一百块钱！请大家记在账本里”，这个就叫<strong>去中心化</strong></p>
-<p>特点：</p>
-<ol>
-<li><strong>去中心化</strong></li>
-<li><strong>开放性</strong></li>
-<li><strong>安全</strong></li>
-<li><strong>不可篡改</strong>：如果要 删除或修改某个区块中的数据，就必须重新生成链接在它之后的所有区块；而共 识机制的存在使得重新生成大量区块的成本极高，几乎是不可能实现的。<strong>为什么？</strong></li>
-<li><strong>匿名性</strong></li>
-</ol>
-<h2 id="公链？私链-联盟链？侧链"><a href="#公链？私链-联盟链？侧链" class="headerlink" title="公链？私链? 联盟链？侧链?"></a>公链？私链? 联盟链？侧链?</h2><p>区块链目前可以分为四类：公链，私链，联盟链以及侧链。</p>
-<ol>
-<li><p><strong>公链——人人可参与</strong></p>
-<p>公链是指任何人都可读取的、任何人都能发送交易且交易能获得有效确认的、任何人都能参与其中共识过程的区块链。</p>
-</li>
-<li><p><strong>私链——权利掌握在少数人手里</strong> </p>
-<p>私链是指其写入权限仅在一个组织手里的区块链。读取权限或者对外开放，或者被任意程度地进行了限制。相关的应用囊括数据库管理、审计、甚至一个公司，尽管在有些情况下希望它能有公共的可审计性，但在很多的情形下，公共的可读性并非是必须的。</p>
-<p><strong>特性：</strong></p>
-<p>\1. 交易速度快</p>
-<p>一个私链的交易速度可以比任何其他的区块链都快，甚至接近了并不是一个区块链的常规数据库的速度。这是因为就算少量的节点也都具有很高的信任度，并不需要每个节点来验证一个交易。</p>
-<p>\2. 隐私性好</p>
-<p>给隐私更好的保障私有链使得在那个区块链上的数据隐私政策像在另一个数据库中似的完全一致;不用处理访问权限和使用所有的老办法，但至少说，这个数据不会公开地被拥有网络连接的任何人获得。</p>
-<p>3.交易成本低</p>
-<p>交易成本大幅降低甚至为零私有链上可以进行完全免费或者至少说是非常廉价的交易。如果一个实体机构控制和处理所有的交易，那么他们就不再需要为工作而收取费用。</p>
-</li>
-<li><p><strong>联盟链——部分去中心化</strong></p>
-<p>联盟链开放程度和去中心化程度是有所限制的。其参与者是被提前筛选出来或者直接指定的，数据库的读取权限可能是公开的，也可能像写入权限一样只限于系统的参与者。</p>
-<p><strong>特性：</strong></p>
-<p>\1. 交易成本低</p>
-<p>交易只需被几个受信的高算力节点验证就可以了，而无需全网确认；</p>
-<p>\2. 节点容易连接</p>
-<p>若是出了问题，联盟链可以迅速通过人工干预来修复，并允许使用共识算法减少区块时间，从而更快完成交易；</p>
-<p>3.灵活</p>
-<p>如果需要的话，运行私有区块链的共同体或公司可以很容易地修改该区块链的规则，还原交易，修改余额等。</p>
-<p>案例：瑞波用于日韩国际汇款及日本本国银行间汇款建立了联盟链，同时之前火过一阵子的迅雷链克也是一种半开放的联盟链。</p>
-</li>
-<li><p><strong>侧链——拓展协议</strong> </p>
-<p>侧链”从严格上来说，其本身并不是区块链，可以理解为区块链的一种扩展协议。早期“侧链”是为了解决比特币区块链技术的限制问题。侧链就像是一条条通路，将不同的区块链互相连接在一起，以实现区块链的扩展。侧链完全独立于比特币区块链，但是这两个账本之间能够“互相操作”，实现交互。</p>
-<p><strong>特性：</strong></p>
-<p>\1. 独立性</p>
-<p>侧链架构的好处是代码和数据独立，不增加主链的负担，避免数据过度膨胀。 侧链有独立的区块链，有独立的受托人或者说见证人，同时也有独立的节点网络，就是说一个侧链产生的区块只会在所有安装了该侧链的节点之间进行广播。</p>
-<p>2.灵活性</p>
-<p>侧链所有的区块链参数是可以定制的，简单的比如区块间隔、区块奖励、交易费的去向等，高级用户还可以修改共识算法。</p>
-</li>
-</ol>
-<h1 id="基于编码的许可链-数据存储方案研究"><a href="#基于编码的许可链-数据存储方案研究" class="headerlink" title="基于编码的许可链 数据存储方案研究"></a><strong>基于编码的许可链 数据存储方案研究</strong></h1><h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><h3 id="Reed-Solomon-编码"><a href="#Reed-Solomon-编码" class="headerlink" title="Reed-Solomon 编码"></a>Reed-Solomon 编码</h3><h3 id="PBFT-协议"><a href="#PBFT-协议" class="headerlink" title="PBFT 协议"></a>PBFT 协议</h3><p>注意事项：</p>
-<p><img src="C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20230828162328636.png" alt="image-20230828162328636"></p>
-<p><img src="C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20230828161754600.png" alt="image-20230828161754600"></p>
-<h3 id="节点行为监管算法"><a href="#节点行为监管算法" class="headerlink" title="节点行为监管算法"></a>节点行为监管算法</h3><p>设定一个信誉值的下限，系统运行时，会定期监测各节点的信誉值，信誉值<strong>低于设定下限的节点将被移除系统</strong>。考虑到系统重初始化过程的工作量，<strong>只有当当前节 点数量 N′ 大于应用的编码方案 (N −2F, N)-RS 中的 N 时，才会移除节点</strong>，避免 额外的解码与重编码过程。</p>
-<h3 id="对视图更换子协议进行了重新设计"><a href="#对视图更换子协议进行了重新设计" class="headerlink" title="对视图更换子协议进行了重新设计"></a>对视图更换子协议进行了重新设计</h3><p><strong>基于伪造的 election 消息 E ′ 的任何消息无法通过验证</strong></p>
-<p><strong>将纠删码与拜占庭协议结合的存储方案 BFT-Store 就是一个基于编码的协作式存储方案</strong></p>
-<p>共识算法是区块链的核心技术之一，旨在解决存储数据一致性的问题。其中最著名的是 Paxos 算法和 Raft 算法</p>
-<p>“拜占庭将军问题”</p>
-<p>现最常用的哈希算法为 SHA256 算法。</p>
-<h2 id="第一章-绪论"><a href="#第一章-绪论" class="headerlink" title="第一章 绪论"></a>第一章 绪论</h2><p>公链、联盟链和私有链</p>
-<p>每个区块包含区 块头和区块体两个部分，区块头储存了用于链接到前面的区块以及保证数据一 致性和完整性的相关信息；区块体储存了区块创建过程中发生的所有通过验证 的交易记录</p>
-<p>默克尔树：区块的哈希值存储在默克尔树的叶子节点中，而非叶子节点存储其孩子节点的哈希值组合进行哈希计算得到的哈希值。在交易验证过程中，仅需对根节点储存的哈希值进行验证即可，很大程度上减少了计算量。</p>
-<h3 id="存储扩容方案，主要分为链下存储和链-上扩容两大类。"><a href="#存储扩容方案，主要分为链下存储和链-上扩容两大类。" class="headerlink" title="存储扩容方案，主要分为链下存储和链 上扩容两大类。"></a>存储扩容方案，主要分为链下存储和链 上扩容两大类。</h3><p>在<strong>链下存储</strong>方案中，当新区块生成时，原先将存储在区块体中的 数据将被保存在额外的非区块链存储系统中，区块体仅保存指向链下数据的指 针和其他相关信息，同时，会按照特定的规则生成对于该数据的唯一标识；当用 户需要访问数据时，可通过唯一标识在链下存储系统中定位到需读取的数据[15]。 链下扩充方案实际是用额外的存储系统来存储完整数据，而将指<strong>向数据的指针 信息和保证数据一致性的证明保留在链上</strong>，</p>
-<p>主流的链下存储方案主要分为：基于分布式哈希表（DHT）的链 下存储方案[16]、基于星际文件系统（IPFS）的链下存储[17-18] 和基于云的链下存 储[19]。</p>
-<p><strong>链上存储</strong>模式是指系统中的节点不再保存完整的历史账簿，而是根据特定 的规则（可由区块链系统的管理者预先制定）保存一部分的记录即可</p>
-<h4 id="当下-的主流链上存储方案主要有协作式存储和轻节点存储两种。"><a href="#当下-的主流链上存储方案主要有协作式存储和轻节点存储两种。" class="headerlink" title="当下 的主流链上存储方案主要有协作式存储和轻节点存储两种。"></a><strong>当下 的主流链上存储方案主要有协作式存储和轻节点存储两种。</strong></h4><p>协作式存储模式下， 若干个不同的节点通过互相协作，以保证存储数据的完整性与一致性，实现与全 节点一样的功能；根据协作方式和技术的不同，又可以分为<strong>基于编码的协作式存储</strong>、<strong>基于分片的协作式存储</strong>和<strong>基于集群的协作式存储</strong>三种。</p>
-<p><strong>轻节点模式</strong>，即引入一种与原有的全节点相对应的轻量级节点——轻节点，它们不再储存完整的历史账本，而是仅储存每个区块中区块头所包含的状态量信息；当需要 验证交易合法性时，轻节点向邻近的全节点发起确认请求并等待其收到请求后回复验证所需的相关信息。</p>
-<h3 id="共识算法—旨在解决存储数据一致性的问题"><a href="#共识算法—旨在解决存储数据一致性的问题" class="headerlink" title="共识算法—旨在解决存储数据一致性的问题"></a>共识算法—旨在解决存储数据一致性的问题</h3><p><strong>共识算法其中最著名的是 Paxos 算法和 Raft 算法</strong></p>
-<p>在 <strong>Paxos</strong> 中，提议进程可以发起提案，而通过提案在全网两轮的广播，如果被<strong>超过全网半数节点接 受，则代表此提案通过共识</strong>。在 Raft 中，由一个主节点全权负责共识；接收到客 户端的请求命令时，它将命令作为日志条目广播给其他节点，并在保证安全的时 候，将日志命令提交执行。</p>
-<p><strong>PoW</strong>[24] 的核心思想是<strong>通过算力竞争来就新生成的区块达成共识</strong>，其要求所有参与共识的节点消耗一定的算力资源来解决复杂数学问题，得到的运算结果 Nonce 可以被其他节点快速验算，而<strong>首个成功解决此难题的节点将被选为本轮共识的主节点，获得记账权</strong>。哈希算法由于其正向计算快速、逆向计算困难的特性， 被用来设计 PoW 算法中的数学难题，现最常用的哈希算法为 SHA256 算法。相较于其他共识算法，其资源消耗高、可监管性弱，且每次共识过程都需要全网节点共同参与运算，性能效率较低，系统容错率为 1&#x2F;2。</p>
-<p><strong>PoS</strong> 中影响记账权的因子<strong>除算力以外，多了持币数量和持币时间，它们的乘积定义为“币龄”</strong>，对于都正确解决数学难题的节点来说，投入币龄越多的节点, 在本轮共识竞争中获胜的概率也越大，而当获胜节点发布了一个新区块后， 其币龄会清零。由于依然是基于哈希运算竞争获取记账权的方式，PoS 的可监管性仍较弱，系统容错率为 1&#x2F;2。</p>
-<p>PBFT 协议是现在联盟链应用最多的共识协议。它的执行过程与 Paxos类似，是一个三阶段的协议，首先系统会选取一个节点当主节点，当主节点收到 来自用户的请求（即对新产生的区块进行共识）时，主节点将接收到的交易信息 向全网广播，其余节点收到广播后记录交易并继续进行全网广播，当各节点收到 交易信息的广播次数（包括该节点本身）达到一个规定阈值后，共识达成。PBFT 协议共识效率高，支持秒级出块，具有更低的资源消耗和更高的性能，系统容错率为 1&#x2F;3。</p>
-<h3 id="why"><a href="#why" class="headerlink" title="why"></a>why</h3><p>为什么选用PBFT协议作为共识协议，而不是用Pow或者PoS？</p>
-<p>Pow和PoS都是采用哈希运算竞争获取记账权，可监管性仍较弱，系统容错率为 1&#x2F;2。PBFT协议共识效率高，支持秒级出块，具有更低的资源消耗和更高的性能，系统容错率为 1&#x2F;3。</p>
-<p>为什么先将区块先进行数据分片后再进行编码？</p>
-<p>减少编码与解码的计算量。</p>
-<h3 id="what"><a href="#what" class="headerlink" title="what"></a>what</h3><h3 id="how"><a href="#how" class="headerlink" title="how"></a>how</h3><h2 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h2><h3 id="区块链-1"><a href="#区块链-1" class="headerlink" title="区块链"></a>区块链</h3><p>区块链是一种基于 P2P 网络进行传输，应用密码学技术以及共识算法保证数据安全性与一致性的分布式数据库；它通过将交易（Transaction）按时间顺序打包成区块，并将区块以顺序的方式链接成一条数据链，并通过加密算法以及共识算法保证链上数据的不可篡改和不可伪造性[29]；更形象地说，区块链可以看 作是“一本由所有节点共同维护的、公开的、真实的账本”。</p>
-<h4 id="区块链系统基础架构模型。"><a href="#区块链系统基础架构模型。" class="headerlink" title="区块链系统基础架构模型。"></a>区块链系统基础架构模型。</h4><p>自上而下由<strong>应用层、合约层、激励层、共识层、网络层和数据层</strong>组成</p>
-<h4 id="区块链核心技术。"><a href="#区块链核心技术。" class="headerlink" title="区块链核心技术。"></a>区块链核心技术。</h4><p>共识机制、数据存储、密码学、智能合约</p>
-<h3 id="数据存储"><a href="#数据存储" class="headerlink" title="数据存储"></a>数据存储</h3><p>默克尔根</p>
-<p>每个区块都会有一棵默克尔树（Merkle Tree），它的每一个 叶子节点对应本区块包含的某一笔交易唯一的哈希值（如果区块包含的交易数 为单数，则最后一笔交易将对应最后两个包含相同哈希值的叶子节点，以此凑成 双数个叶子节点）。默克尔树从下至上，<strong>每个非叶子节点中包含的是其两个孩子 节点的哈希值通过哈希运算后得到的哈希值。</strong>默克尔树根节点包含的哈希值作 为区块中所有交易的唯一标示，任何交易发生变化都会导致默克尔根发生变化， 因此可以用于验证；而相对于保存一个区块中所有交易记录需要 1MB 左右的存 储空间，保存一个默克尔根仅需 10B 左右的空间。</p>
-<p><img src="C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20230825181936323.png" alt="image-20230825181936323"></p>
-<h3 id="共识机制"><a href="#共识机制" class="headerlink" title="共识机制"></a>共识机制</h3><p>拜占庭问题的前提条件为，假设网络中的节点总数为 N，恶意节点为 F，仅当 N ≥ 3F + 1 时，问题才有解。</p>
-<p>PBFT 协议核心由 3 个子协议组成：一致性协议、检查点协议、视图更换协议</p>
-<h4 id="一致性协议"><a href="#一致性协议" class="headerlink" title="一致性协议"></a><strong>一致性协议</strong></h4><p><img src="C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20230829205206738.png" alt="image-20230829205206738"></p>
-<p>可进一步细分为三个阶段：预准备阶段（Pre-prepare）、 准备阶段（Prepare）和提交阶段（Commit）[27]。</p>
-<ol>
-<li>Pre-prepare 阶段。主节点为收到的请求分配序号，并向其余副本节点广播 pre-prepare 消息 ，其中 v 是当前视图号，n 是 请求序号，m 是捎带给从节点的消息，d 是消息 m 的摘要。从节点收到 pre-prepare 消息后，验证消息合法性，验证通过则向全网广播 prepare 消息 ，其中 i 为节点 i 的编号。</li>
-<li>Prepare 阶段。节点收到 prepare 消息后进行合法性验证，如果验证通过，则写入消息日志中。当收到至少 <strong>2F</strong> 个通过验证的 prepare 消息（包括本节点） 后，节点进入 Commit 阶段。（为什么是2F不是2F+1，因为那个1是该节点收到的主节点发送的pre-prepare 消息）</li>
-<li>Commit 阶段。节点广播 commit 投票，与上述过程类似，收到来自其他节 点的 commit 投票后，节点也会进行验证，通过则写入消息日志。当节点收 到至少 <strong>2F + 1</strong> 个通过验证的承诺消息（包括本节点）后，则向客户端回复 reply 消息，标志本轮共识达成。当客户端收到至少 <strong>F + 1</strong> 个包含相同时间 戳 t 和响应值 r 的 reply 消息，则认为请求响应成功。</li>
-<li>假如节点已执行完一致性协议，则会再次向客户端回复 reply 消息，否则将 会将请求转发给主节点。如果主节点仍未响应，当足够多的从节点怀疑主节点为 恶意节点时，则会触发试图更换协议更换服务器作为主节点。PBFT 采用轮换的方式选出下一个作为主节点的服务器 Ni , 其中 i &#x3D; (v + 1)modN，其中 N 为网络 中节点总数。</li>
-</ol>
-<h4 id="检查点协议"><a href="#检查点协议" class="headerlink" title="检查点协议"></a>检查点协议</h4><p>是周期性执行的协议，主要作用有两个：</p>
-<p>1）由于拜占庭节点的存在，可能存在系统中服务器状态不一致的问题，执行检查点协议可以将系统中的服务器同步到某一个相同的状态；</p>
-<p>2）清理日志以防止系统资源被大量日志占 用，从而影响系统性能。</p>
-<h3 id="纠删码技术"><a href="#纠删码技术" class="headerlink" title="纠删码技术"></a>纠删码技术</h3><h5 id="分组码："><a href="#分组码：" class="headerlink" title="分组码："></a>分组码：</h5><p>分为不同块，针对每一块独立编码。用（k，n）表示，原始数据块包括k个信息码元，添加r&#x3D;n-k个冗余的监督码元。</p>
-<p>XOR编码，RS编码</p>
-<h5 id="卷积码："><a href="#卷积码：" class="headerlink" title="卷积码："></a>卷积码：</h5><p>有记忆，且于原始数据库相关，与之前的编码块也相关</p>
-<p>当前主流的纠删码大致可分为分组码与卷积码两大类。在分组码中，原始数据将分为不同的块，针对每一个数据块独立编码。分组码一般用符号 (k, n) 表示，代表每个原始数据块包含 k 个信息码元，通过添加 r &#x3D; n–k 个冗余的监督码元，最终形成码长为 n 的编码块。现今常用的 XOR 编 码、RS 编码等都是熟知的分组码。而卷积码是有记忆的，相较于分组码的每块 独立，卷积码编码后的每个编码块不仅与原始数据块相关，与之前的编码块也相 关。</p>
-<h4 id="Reed-Solomon-编码：基于域元素多项式运算以字为单位，原始数据先切分至字长为（8或16位）的字"><a href="#Reed-Solomon-编码：基于域元素多项式运算以字为单位，原始数据先切分至字长为（8或16位）的字" class="headerlink" title="Reed-Solomon 编码：基于域元素多项式运算以字为单位，原始数据先切分至字长为（8或16位）的字"></a>Reed-Solomon 编码：基于域元素多项式运算以字为单位，原始数据先切分至字长为（8或16位）的字</h4><p>范德蒙 RS 编码</p>
-<p>柯西 RS 编码方案</p>
-<h3 id="数字签名技术"><a href="#数字签名技术" class="headerlink" title="数字签名技术"></a>数字签名技术</h3><p><img src="C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20230829201212916.png" alt="image-20230829201212916"></p>
-<p>数字签名是附加在某一报文中的一组特定的符号或代码，用于表示签发者的身份以及对此报文的认可，能够被文档接收者用于验证该报文在传输过程中是否被篡改或伪造</p>
-<p><strong>非对称密码体制</strong>，即发送者使用私钥加密数据, 接收者使用对应的公钥解密数据，它的功能主要有：1）报文鉴别，允许接收者 验证签名由哪个发送者所签；2）防止发送者否认签名；3）防止接收者伪造签名。</p>
-<p>常规数字签名主要包括：用于非对称加密算法的 RSA 签名[51]、利用离散对数特性实现的 ElGamal 签名[52]、基于椭圆曲线实现的 ECDSA 方案[53]、基于 ECDSA 方案改进而来的 Schnorr 签名[54] 等；</p>
-<p>而特殊数字 签名主要包括：建立在 ElGamal 签名方案上的盲签名方案[55]、允许指定代理签 名者代表原始签名者生成签名的代理签名方案[56]、允许某个成员或成员组代替 整个群组进行匿名签名的群签名方案[57-58] 等。</p>
-<h4 id="门限签名"><a href="#门限签名" class="headerlink" title="门限签名"></a>门限签名</h4><p>在区块链系统中，常使用门限签名来对交易进行批量认证。</p>
-<p>简单来说，对于一个门限签名方案 (t, n)-TS[59]，指由 n 个 成员组成的一个签名群体，群体内任意大等于 t 个诚实的成员组合可以用群私钥 进行合法签名，群体中任何成员不能假冒其他成员进行签名，而任何人都可以利用该签名群体的群公钥进行签名验证。其大致流程如下：</p>
-<ol>
-<li>生成公私钥。首先定义 n 与 t，分别表示参与者的数量以及门限值，至少 t + 1 个参与者需要参与签名流程。所有参与者共同生成一份群公私钥，每 个参与者会获得一份相同的公钥和自己一部分私钥。 </li>
-<li>签名阶段。对于一条公共的待签名消息，每个签名者将自己的签名结果发 送给一个中间管理者，它将所有签名汇集起来得到完整签名。 </li>
-<li>验证阶段。使用公钥对签名进行验证，由于公钥是公开的，所以验证阶段 不必进行多方计算。</li>
-</ol>
-<h4 id="无证书聚合签名方案（CLAS）"><a href="#无证书聚合签名方案（CLAS）" class="headerlink" title="无证书聚合签名方案（CLAS）"></a>无证书聚合签名方案（CLAS）</h4><p>它是基于 Schnorr 签名[54] 的优化方案，成员仅需从密钥生成中心（KGC）获取部分私钥，并自行计算获取完整得私钥和对应公钥，进一步提升了安全性和去中心化程度。现假设有 n 个 成员 u1, u2, …, un，他们唯一标识的身份信息为 ID1, ID2, …, IDn，对应的公钥为 pk1, pk2, …, pkn，以及当前的系统状态信息为 δ。CLAS 将这些成员分别对消息 m1, m2, …, mn 的签名 σ1, σ2, …, σn 压缩成一个长度不变的签名 σ [60]。同时，CLAS 也提供了一种验证算法用于验证签名 是否合法。此外，CLAS 具有迭代性，即 针对若干个聚合后的签名，仍可以进行再次聚合。</p>
-<h3 id="why-1"><a href="#why-1" class="headerlink" title="why"></a>why</h3><p>区块链的不可篡改性：由于在区块链中，所有生成的区块都必须按照时间顺序持续加至链的尾部，如果要删除或修改某个区块中的数据，就必须重新生成链接在它之后的所有区块？？？为什么？？？</p>
-<p>每个块都有自己的哈希值，后一个区块中会包含前一个区块的哈希值，修改其中任意一个区块的数值都会导致其后所有区块的数值发生改变。比如默克尔树</p>
-<p>默克尔树根节点包含的哈希值作 为区块中所有交易的唯一标示，任何交易发生变化都会导致默克尔根发生变化？？</p>
-<h3 id="what-1"><a href="#what-1" class="headerlink" title="what"></a>what</h3><p>RS 编码是在 <strong>Galois 域 GF(2w)</strong> 上的基于域元素多项式运算的一种编码算 法</p>
-<p><strong>伽罗华域(Galois Fields)</strong></p>
-<p>现假设 α0, …, αn−1 是 <strong>F q</strong> 中的 n 个不同元素</p>
-<p>数字签名技术的非对称密码体制</p>
-<h3 id="how-1"><a href="#how-1" class="headerlink" title="how"></a>how</h3><h2 id="第三章-基于-RS-编码的联盟链存储方案"><a href="#第三章-基于-RS-编码的联盟链存储方案" class="headerlink" title="第三章 基于 RS 编码的联盟链存储方案"></a>第三章 基于 RS 编码的联盟链存储方案</h2><h4 id="网络模型。"><a href="#网络模型。" class="headerlink" title="网络模型。"></a>网络模型。</h4><p>在此模型下，存在一个未 知的全局稳定时间 GST，在 GST 之后，存在一个消息传输延迟上限 ∆，任意诚 实节点发送的消息在 ∆ 内一定能够到达其他所有的诚实用户。</p>
-<h4 id="敌手模型"><a href="#敌手模型" class="headerlink" title="敌手模型"></a>敌手模型</h4><h3 id="数据分片与编码"><a href="#数据分片与编码" class="headerlink" title="数据分片与编码"></a>数据分片与编码</h3><p>对每个单独的区块进行数据分片，分片数量由区块大小和系统节点数量决定。</p>
-<p>以二级分片为例：确定一级分片数量r，保证二级分片大小l再1kb内。每个以及分片分割成二级分片数量<strong>k不小于N-2F</strong>，为避免存储冗余，本文取 k &#x3D; N − 2F</p>
-<p><img src="C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20230825183836458.png" alt="image-20230825183836458"></p>
-<p>一级分片数量为r，二级分片数量为k，区块大小为T，二级分片大小为l，T&#x3D;r * k * l&#x3D;r * （N-2F）* l 。由此可算出分片数量。</p>
-<p>第一次将原始区块分割成 r 个一级分片：B（h）&#x3D;{B1（h），B2（h），······Br（h）}</p>
-<p>随后，对于每一个一级分片 Bi(h)，再次分片得 k 个二级分片：Bi（h）&#x3D;{bi，1（h），bi，2（h）······bi，k（h）}</p>
-<p>分片完后，对每个一级分片进行独立的RS编码</p>
-<p><img src="C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20230825184522447.png" alt="image-20230825184522447"></p>
-<h3 id="数字签名认证"><a href="#数字签名认证" class="headerlink" title="数字签名认证"></a>数字签名认证</h3><p>采用无证书的聚合签名方案CLAS方案，嵌入PBFT协议的Commit阶段进行，每个节点对B（h）所有编码值进行签名，然后和commit消息一起全网广播。节点受到其他节点的commit消息时，先验证签名合法性，若合法，则证明计算的相应编码值正确。直到收到F+1个来自不同节点的commit，然后将签名进行聚合。然后再将这一个一级分片的签名进行迭代聚合，得到单个聚合签名，作为区块B（h）编码值集合Fh（s）的认证。当完成签名认证后，可以丢弃除去自己需要保存的对应编码值外的所有编码值。</p>
-<p>对于节点 Ns，针对链上所有区块 {B(h1), B(h2), …}， 它所需要保存的编码值与相应的数字签名如图 3.2所示。</p>
-<p><img src="C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20230825184959136.png" alt="image-20230825184959136"></p>
-<h3 id="数据恢复"><a href="#数据恢复" class="headerlink" title="数据恢复"></a>数据恢复</h3><p>根据 PBFT 协议的容错性，当系统中拜占庭节点数量满足 F &#x3D; ⌊ N−1 3 ⌋，可以 保证至少有 N − F 个编码值保存在诚实节点上，即使在最坏的情况下，有 F 个 诚实节点宕机，仍可以保证主节点收到 N − 2F 个来自不同诚实节点的编码值， 而本方案应用了 (N − 2F, F)-RS 编码方案，因此可以保证在任何情况下都能成 功恢复任意区块。</p>
-<p>主节点收到客户端的请求，先广播decode消息给所有从节点，从节点们收到decode消息后将存储的对应编码值集合以及数字签名发送给主节点。收到N-2F个来自不同从节点的有效编码值集合后，根据索引i带入对应的以及分片RS编码生成多项式fh，i（X）中，从而得到（N-2F）元线性方程，计算解得二级分片集合{bi，1（h），······，bi，k（h）}，再根据二级分片的索引i进行链接得到一级分片Bi（h）；再将一级分片根据他们的索引i进行链接，得到原始区块B（h）。</p>
-<h3 id="系统重初始化"><a href="#系统重初始化" class="headerlink" title="系统重初始化"></a>系统重初始化</h3><p>假设系统建立时，有N个节点，此时采用(N-2F,N)的RS编码方案，</p>
-<ol>
-<li><p>当有一个节点加入时，采用(N-2F,N+1)的RS编码，其余节点不需要变化，新加入的节点需要解码消息获得二级分片，然后将其进行(N-2F,N+1)的RS编码，取得自己对应的编码值集合。（其他节点不需要 变化）</p>
-</li>
-<li><p>当有一个节点离开系统时，若此时总节点数&gt;&#x3D;N，则采用(N-2F,‘总节点数’)的RS编码，只需退出节点删除自己保存的编码值即可</p>
-</li>
-<li><p>当有一个节点离开系统时，若此时总节点数为N-1&lt;N,则采用((N-1)-2F,N-1)的RS编码，此时，所有节 点需要在当前视图的主节点的负责下，进行解码与重新编码验证工作。（全部都要变）</p>
-</li>
-</ol>
-<p>思考：为什么加节点不需要改拜占庭节点，减去却要改？</p>
-<p>加节点时你之前都能满足编码要求，之前模型是要求上限F，现在改了后现存拜占庭节点不会超过上限，所以不需要改，而减去后上限是减少了，现存的拜占庭节点有可能就超上限了，所以需要改。</p>
-<h3 id="节点行为监管"><a href="#节点行为监管" class="headerlink" title="节点行为监管"></a>节点行为监管</h3><p>每个节点有自己的信誉值，基于节点作恶行为以及正确参与协议运行的次数进行实时更新，每个节点实时维护一个动态数组，记录各个节点当前信誉值。节点主要通过对数字签名的验证来发现其他节点的恶意行为，假设Ns发出的消息不合法，则会广播detected消息指明节点Ns伪造消息。若收到F+1个指明节点作恶的detected消息时，将 更新Ns中的信誉值。</p>
-<p>系统初始化时，管理员定一个信誉值下限，运行时定期监测各节点信誉值，若低于则移除系统。但<strong>只要当前节点数N‘大于应用的编码方案（N-2F，N）-RS中的N，才会移除节点</strong>，避免额外的解码与重编码过程。节点还会根据信誉值划分为不同的安全等级，更换主节点视图时可参考其安全等级执行轮换算法。</p>
-<p>节点行为监督算法：当前视图的主节点广播inspect消息。当节点Ns收到主节点的inspect消息后，查询信誉值数组，并将所以信誉值低于下限的节点序号打包成集合，签名并生成聚合签名，一并回复给主节点。主节点收到至少<em><strong>N-2F</strong></em>个回复消息后，查询序号列表并将所以出现在至少<strong>F+1</strong>个列表的序号打包成集合malicious。在不增加额外的 系统重初始化工作量的前提下，集合malicious中的节点将被移除系统。</p>
-<h3 id="安全性于活性："><a href="#安全性于活性：" class="headerlink" title="安全性于活性："></a>安全性于活性：</h3><p>RS编码最多容忍n-k个编码块丢失，考虑最坏情况，F个拜占庭节点，至少n-F个编码块存储再非拜占庭节点上，n-F&gt;&#x3D;k，所以n-k&gt;&#x3D;F，至少需要F个冗余编码快，才能恢复数据。由于主节点可能是拜占庭节点，系统存在至多F个拜占庭节点，和F个没收到主节点pre-prepare消息而保持沉默或伪造的pre-prepare消息而发送错误的prepare消息<strong>（如果有大于 F 个诚实节点没收到 或收到错误的消息，则会发起视图更换流程）</strong>，因此至少N-2F个诚实节点存储正确。相似的，在系统重初始化阶段也类似，只能保证至少收到N-2F个正确的</p>
-<h3 id="关于实验："><a href="#关于实验：" class="headerlink" title="关于实验："></a>关于实验：</h3><h5 id="Tendermint："><a href="#Tendermint：" class="headerlink" title="Tendermint："></a>Tendermint：</h5><h6 id="封装的底层："><a href="#封装的底层：" class="headerlink" title="封装的底层："></a>封装的底层：</h6><p>将区块链一般性框架”网络-共识-应用“中的底下两层网络与共识封装成Tendermint Core，同时提高ABCI接口与应用交互。（类似操作系统？）</p>
-<h6 id="共识算法："><a href="#共识算法：" class="headerlink" title="共识算法："></a>共识算法：</h6><p>PoS+BFT</p>
-<p>确定一个区块，通过一个回合round，由propose，prevote和precommit，第一个由选举共识实现，后两个由主链共识实现。</p>
-<p>选举共识-PoS：</p>
-<p>从候选人中选择一个出块人，采取非阻塞轮询策略（出块人的选择概率与候选人的投票权重正相关）</p>
-<p>主链共识-BFT：<br>采用优化的BFT拜占庭共识协议：</p>
-<p>简化了PBFT，仅使用两轮投票达成共识</p>
-<p>1.预投票pre-vote</p>
-<p>2.预提交pre-commit</p>
-<p>超过三分之二的投票才成功</p>
-<p>最终一致性,不回出现分叉</p>
-<p>共识容错率：容忍三分之一的作恶节点</p>
-<p>ABCI-Tendermint与区块链应用通信法则</p>
-<p>Tendermint通过ABCI区块链应用接口与区块链应用联系，特点是:</p>
-<p>使用socket协议通信</p>
-<p>ABCI标志包含多种交易类型：<br>DeliverTx：每笔交易都通过其传送</p>
-<p>CheckTx：仅用于验证交易</p>
-<p>CommitTx：用于应用状态的加密保证</p>
-<h5 id="Tendermint-BFT详解："><a href="#Tendermint-BFT详解：" class="headerlink" title="Tendermint-BFT详解："></a>Tendermint-BFT详解：</h5><h6 id="Round-based协议"><a href="#Round-based协议" class="headerlink" title="Round-based协议"></a>Round-based协议</h6><p>五个步骤不断循环执行：</p>
-<p>NewHeight-&gt;Propose-&gt;Prevote-&gt;Precommit-&gt;Commit</p>
-<p>中间的三个步骤为一个Round<br>步骤如下：</p>
-<p>1.进入新的高度阶段，等待进入Propose阶段</p>
-<p>2.Propose阶段，选举Proposer，然后Proposer提交一个Proposal，进入Prevote阶段</p>
-<p>3.Prevote阶段Validators对收到的Proposal进行prevote投票，当达到三分之二的prevote投票后进入Precommit阶段</p>
-<p>4.Precommit阶段进行Precommit投票，当达到三分之二的投票后进入Commit阶段；未达到则重进Propose即Step2</p>
-<p>5Commit旧节点准备好新的高度以及广播新的状态给节点，进入Step1</p>
-<p>Proposal：</p>
-<p>Proposer从Validators中选举，Validator的注册通过编写配置文件genesis.json在区块链创世区块中配置</p>
-<p>选择规则：Round-robin</p>
-<p>初始化Validators后，全部节点会将Validator数据备份至本地。</p>
-<p>全网从Validator循坏排序数组的0位置开始指定Proposer，每次新的高度依次向后指定，达到最后时从0重新开始，如果Proposer部分连接或异常，则会跳过该节点向下指定。Validator循环排序数组中的Validator怎么选举的饿呢？根据Validator的votingPower来决定顺序，votingPower越大越容易被选中，每个votingPower由其质押的资金stake1：1恒定</p>
-<p>初始化后每轮votingPower都会更新：</p>
-<p>本轮未选中的Validator本轮后其votingPower增加其初始化的stake即votingPower&#x3D;votingPower+stake</p>
-<p>本轮选中的Validator本轮后其votingPower减少为其他Validator的stake之和：</p>
-<p>votingPower&#x3D;votingPower-stake和</p>
-<p><u>Round-robin策略的问题在于下一个Proposer可以被预测到容易引发对于特点单点主机的DDos攻击，所以还需要隐藏Validator节点的Ip地址</u></p>
-<p>Prevote：Validator不断监听是否有新的Proposal区块，每个Validator进行Prevote阶段的投票之前，要先判断自己是否锁定在上一轮的Proposal区块上：（1）是则继续签名广播上一轮锁定的Proposal区块并广播Prevote投票（2）否则签名广播当前轮Proposal区块并广播prevote投票（3）某些原因导致Validator没有锁定任一Proposal区块，则签名广播一个空的prevote投票</p>
-<p>通过不同轮次将统一网络中的Validator区分开避免多次prevote投票，prevote投票与Proposal区块一一对应</p>
-<p>Precommit：</p>
-<p>Validator会收集prevote投票：</p>
-<p>达到三分之二的prevote投票，则为这个区块签名广播precommit投票，并且Validator锁定在此Proposal区块上，同时释放之前锁定的区块，一个Validator智能锁定一个区块</p>
-<p>若收到达到三分之二的空的prevote投票，则释放之前锁定的所有区块</p>
-<p>若没有收集到超过三分之二的任何prevote投票，则不会锁定任何区块。处于锁定状态的Validator会为锁定的区块手机prevote投票，并将投票打包放入proof-of-lock。</p>
-<p>Commit：</p>
-<p>如果Validator收到超过三分之二的precommit投票，则进入commit阶段，否则进入下一轮Proposal阶段。</p>
-<p>1.Validator收到了被全网commit的区块，Vlidator会为这个区块广播commit投票</p>
-<p>2.Validator需要为precommit的区块收集超过三分之二的commit投票。满足条件，则进入NewHeight阶段。进入新一高度（一个高度可能对应多个轮次）</p>
-<p>为什么可以不分叉：</p>
-<p>加上了锁的机制，在下一轮中，每个Validator只能被锁定在之前pre-commit块上</p>
-<h5 id="Tendermint-BFT与PBFT的比较"><a href="#Tendermint-BFT与PBFT的比较" class="headerlink" title="Tendermint-BFT与PBFT的比较"></a>Tendermint-BFT与PBFT的比较</h5><h6 id="相同点："><a href="#相同点：" class="headerlink" title="相同点："></a>相同点：</h6><p>都属于BFT类型的算法，最多容忍不超过1&#x2F;3的恶意节点<br>都是三阶段提交，Tendermint的propose-&gt;pre-vote-&gt;pre-commit三个阶段，跟PBFT的三个阶段，pre-prepare, prepare, commit 三阶段是一一对应的<br>都在超时的时候，换掉proposer&#x2F;primary （都是leader）</p>
-<h6 id="不同点："><a href="#不同点：" class="headerlink" title="不同点："></a>不同点：</h6><p>不过Tendermint相对于PBFT有两处简化。</p>
-<p>Tendermint没有PBFT那种View Change阶段<br>Tendermint很巧妙的把超时的情况跟普通情况融合成了统一的形式，都是 propose-&gt;pre-vote-&gt;pre-commit 三阶段，只是超时的时候新块是一个特殊的空块。切换proposer是通过提交commit空块来触发的，而PBFT是有一个单独的view change过程来触发primary轮换。<br>Tendermint的所有信息都存储在区块链因为PBFT是1999年提出来的，那时候还没有blockchain这个东西(blockchain是2009年比特币出现之后才有的)，因此PBFT的所有节点虽有有一致的数据，但数据是分散存放的。<br>Tendermint和PBFT关系类似于Raft和Paxos的关系，Tendermint是PBFT的简化版，是针对blockchain这个场景下的简化版PBFT 。</p>
-<h5 id="SHA256："><a href="#SHA256：" class="headerlink" title="SHA256："></a>SHA256：</h5><p>SHA256是SHA-2下细分出的算法（哈希函数）</p>
-<p><strong>对于任意长度的消息，SHA256会产生256bit长的哈希值叫消息摘要</strong></p>
-<h6 id="原理："><a href="#原理：" class="headerlink" title="原理："></a>原理：</h6><p>1.常量初始化</p>
-<p>用到8个哈希初值以及64个哈希常量</p>
-<p>这些8个初值是对自然数中前8个质数（2,3,5,7,11,13,17,19）的平方根的小数部分取前32bit而来，这些64个常量是对自然数中前64个质数(2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83,89,97…)的立方根的小数部分取前32bit而来。</p>
-<p>2.信息预处理：</p>
-<p>预处理指在想要Hash的消息后补充需要信息，使消息满足条件</p>
-<p>预处理分：附加填充比特和附加长度</p>
-<p>STEP1：附加填充比特</p>
-<p>使报文长度对512取模后的余数为448</p>
-<p>具体填充：先补第一个比特位1，然后都补0，知道达到要求。</p>
-<p>信息是必须填充的，即使刚好满足条件，也要补512个比特</p>
-<p>至于为什么是448？第二步会附上一个64bit的数据来表示原始报文长度。448+64&#x3D;512</p>
-<p>STEP2：附加长度值</p>
-<p>将原始数据长度信息补到STEP1后面</p>
-<p>3.逻辑运算</p>
-<p>∧按位“与”<br>¬按位“补”<br>⊕按位“异或”<br> S^{n}循环右移n个bit<br>R^{n}右移n个bit</p>
-<p>4.计算消息摘要</p>
-<p>将消息分解为512bit大小的块，假设可以分为n块，则需要做n次迭代，一个256bit摘要初始值为H0，经过第一个数据库进行运算，得到H1，H1再依次处理，得到Hn。256-bit的Hi被描述8个小块。第一次迭代中，H0映射初始值设为8个哈希初值</p>
-<p>STEP1：构造64个字</p>
-<p>对于每一块，分为16个字，记作w[0],···w[15]</p>
-<h5 id="椭圆曲线数字签名算法"><a href="#椭圆曲线数字签名算法" class="headerlink" title="椭圆曲线数字签名算法"></a>椭圆曲线数字签名算法</h5><h6 id="签名："><a href="#签名：" class="headerlink" title="签名："></a>签名：</h6><p>简称ECC，是一种非对称加密算法。ECC的私钥本质为一个整数，其对应的公钥为椭圆曲线上的一点。</p>
-<p>用私钥a对消息m签名，得到两个整数（r，s），过程如下：</p>
-<p>1.随机生成临时私钥k，并计算其对于公钥K&#x3D;k*G&#x3D;（XK，YK）</p>
-<p>2.计算r&#x3D;XK mod n，若r为0，则回到第一步</p>
-<p>3.计算m的哈希e&#x3D;hash（m），并将e的二进制序列转成一个整数</p>
-<p>4.计算s&#x3D;[（e+ra）&#x2F;k]mod n，若s为0，回到第一步</p>
-<p>5得到签名（r，s）</p>
-<p>若每次都用相同k，则知道e1，e2和签名（r1，s1），（r2，s2）时，有s1-s2&#x3D;[（e1-e2）mod n]&#x2F;k，这样可以得到k，从而反推a，所以每次签名时的k要绝对私密且足够随机</p>
-<h6 id="验签："><a href="#验签：" class="headerlink" title="验签："></a>验签：</h6><p>公钥A和消息m验证签名（r，s），过程如下：<br>1.计算m的哈希e&#x3D;hash(m),将e的二进制序列转成整数</p>
-<p>2.计算u1&#x3D;（e mod n）&#x2F;s</p>
-<p>3.计算u2&#x3D; （r mod n）&#x2F;s</p>
-<p>4.计算点P&#x3D;u1*G+u2 * A&#x3D;（Xp，Yp）</p>
-<p>5.当r&#x3D;Xp mod n时，验签成功</p>
-<h6 id="证明："><a href="#证明：" class="headerlink" title="证明："></a>证明：</h6><p>已知A&#x3D;aG，则</p>
-<p>P&#x3D;u1*G+u2 *A&#x3D;（u1+u2a） *G&#x3D;（e&#x2F;s+ra&#x2F;s） *G</p>
-<p>ps：忽略u1和u2的模n运算，没有问题，因为a*G&#x3D;（ a mod n） *G，详细查阅循环子群。</p>
-<p>s&#x3D;[（e+ra）&#x2F;k]mod,同乘k再除以s，得：</p>
-<p>k&#x3D;[（e+ra）&#x2F;s]mod n</p>
-<p>也就是说，如果（r，s）正确，则验签时点P就是临时私钥k对于的公钥</p>
-<p>P&#x3D;（e+ra）&#x2F;s*G&#x3D;k *G&#x3D;（Xp，Yp）</p>
-<h5 id="Gossip："><a href="#Gossip：" class="headerlink" title="Gossip："></a>Gossip：</h5><p>由种子节点发起，当一个种子节点有状态需要更新到网络中的其他节点，它会随机选择周围几个节点散播消息，依次类推，直到网络中所有节点都收到消息。（最终一致性协议）</p>
-<h5 id="实验指标："><a href="#实验指标：" class="headerlink" title="实验指标："></a>实验指标：</h5><p>参照组：全复制存储方案，基于编码的存储方案BFT-Store</p>
-<h6 id="存储成本（单个区块存储所需的空间成本衡量）："><a href="#存储成本（单个区块存储所需的空间成本衡量）：" class="headerlink" title="存储成本（单个区块存储所需的空间成本衡量）："></a>存储成本（单个区块存储所需的空间成本衡量）：</h6><p>每个区块B（h）分割为r个一级分片，随后每个一级分片分割为k&#x3D;N-2F个二级分片，存储成本如下式子：<br>r * N * T&#x2F;k * r&#x3D;（约等于）3T</p>
-<p><strong>全复制存储方案存储成本为O（N * T），本方案降低至了O（T）。</strong>当系统节点数量增长时，存储花销保持在一个常数量级上。</p>
-<h6 id="编解码效率（对编码和解码的吞吐量衡量）："><a href="#编解码效率（对编码和解码的吞吐量衡量）：" class="headerlink" title="编解码效率（对编码和解码的吞吐量衡量）："></a>编解码效率（对编码和解码的吞吐量衡量）：</h6><p>对于（N-2F，N）-RS编码方案</p>
-<p>编码复杂度： ERS(N)&#x3D;O(N * (N-2F))</p>
-<p>解码复杂度： DRS(N)&#x3D;O((N-2F)*(N-2F) *(N-2F))</p>
-<p>对于解码，每个原始区块分割为r个一级分片，要恢复一个区块，需要进行r次解码</p>
-<p>解码复杂度为：O（r*l * l * DRS（N））&#x3D;O（T&#x2F;(l *N) *l * l * N *N *N）&#x3D;O(T *l * N *N)</p>
-<p>对于BFT-store方案将每N-2F个完整区块映射为N个编码块，解码复杂度为：</p>
-<p>O（T * T *<em>DRS（N））&#x3D;O（T</em> * T*N *N *N）</p>
-<p>两式子相比，得     ：T*N&#x2F;l&#x3D;2的18次方</p>
-<p>解码效率提升了约2的18次方：<br>编码效率也以此类推：</p>
-<p>O（T*T *ERS（N））&#x3D;O（T *T *N *N）</p>
-<p>O（r* l *l *ERS（N））&#x3D;O（T *l *N）</p>
-<h6 id="系统重初始化效率（节点平均完成重初始化流程所花时长衡量）："><a href="#系统重初始化效率（节点平均完成重初始化流程所花时长衡量）：" class="headerlink" title="系统重初始化效率（节点平均完成重初始化流程所花时长衡量）："></a>系统重初始化效率（节点平均完成重初始化流程所花时长衡量）：</h6><p>假设有新节点加入和有一现有节点退出，*<em>BFT-Store复杂度为O（N <em>T），本方案为O（T）</em></em></p>
-<h3 id="why-2"><a href="#why-2" class="headerlink" title="why"></a>why</h3><p>编码时的，（k，N）为什么k不小于N-2F？为什么选择N-2F？？？</p>
-<p>根据 PBFT 协议的容错性，当系统中拜占庭节点数量满足 F &#x3D; ⌊ （N−1）&#x2F; 3 ⌋，可以 保证至少有 N − F 个编码值保存在诚实节点上，即使在最坏的情况下，<strong>有 F 个 诚实节点宕机</strong>，仍可以保证主节点收到 N − 2F 个来自不同诚实节点的编码值， 而本方案应用了 (N − 2F, F)-RS 编码方案，因此可以保证在任何情况下都能成 功恢复任意区块。</p>
-<p>为什么最坏的情况下只有F个诚实节点宕机？</p>
-<p>由于主节点可能是拜占庭节点，系统存在至多F个拜占庭节点，和F个没收到主节点pre-prepare消息而保持沉默或伪造的pre-prepare消息而发送错误的prepare消息<strong>（如果有大于 F 个诚实节点没收到 或收到错误的消息，则会发起视图更换流程）</strong>，因此至少N-2F个诚实节点存储正确。相似的，在系统重初始化阶段也类似，只能保证至少收到N-2F个正确的</p>
-<p>为什么如果有大于 F 个诚实节点没收到 或收到错误的消息，则会发起视图更换流程？</p>
-<p>首先F是确定的。F&#x3D;[(N-1)&#x2F;3]  向下取整，如果大于 F 个诚实节点没收到或收到错误的消息,则会导致节点在commit阶段收不到至少2F+1个commit消息，所以共识失败，发起视图更换流程</p>
-<h2 id="第四章-基于分组编码的联盟链存储方案"><a href="#第四章-基于分组编码的联盟链存储方案" class="headerlink" title="第四章 基于分组编码的联盟链存储方案"></a>第四章 基于分组编码的联盟链存储方案</h2><p>此外，在本方案中，属于分组中的节点将会是敌手首要的攻击目标，<strong>但敌手攻击节点需要花费一定的时间，且不能同时攻击多个节点</strong></p>
-<p>本方案的设计目标如下： </p>
-<ol>
-<li><p>高效性。包含了计算效率与网络通信量两方面。首先，通过实现分组编码、 共识及解码，降低过程中的计算复杂度，提高系统吞吐量。其次，相较于采 用全复制存储方案的传统区块链系统来说，应用编码的存储方案在解码时 将产生额外的网络通信量，在 BFT-Store 方案和 PartitionChain 方案中，全 网参与的解码过程会分别造成 O(N2 · T) 和 O(N2 · l) 量级的通信复杂度， 本方案将通过实现分组解码，以<strong>移除通信复杂度中的 N2 项</strong>。 </p>
-</li>
-<li><p>安全性与活性。对于分组编码与共识来说，如何保证在一个规定时间内（分组中大部分节点被敌手控制前）完成编码与共识是设计关键，本方案通过 <strong>对分组选举 CE 协议[67] 优化，并与 PBFT 协议中的视图更换子协议相结合</strong>， 保证方案运行的安全性与活性。</p>
-</li>
-</ol>
-<h3 id="流程概述"><a href="#流程概述" class="headerlink" title="流程概述"></a>流程概述</h3><p>为了降低 RS 编码的计算复杂度，本方案在编码前先对单个区块 B(h) 进行 数据分片，根据区块大小 T、系统节点数 N 等因素共同决定进行几级分片以及分片数量，先将单个区块进行数据分片，根据 PBFT 协议的容错性能确定合适的 RS 编码方案进行编 码，最后通过 PBFT 协议对编码值进行共识。上述过程由选举出的本视图分组 （Committee）执行</p>
-<p>本方案的解码工作在一个由 n 个节点组成的分组内进 行，由主节点（也在分组内）向组内多播 decode 消息，当收到足够来自不同组内 节点的有效编码值集合 Fh(s) 后，进行解码。</p>
-<p><strong>共识过程在 PBFT 协议的 Commit 阶段执行</strong>，其中 Hi 为分组成员 Mi（1 ≤ i ≤ n）对区块 B(h) 编 码值的签名集合，当收到至少 f + 1 个来自其他成员的有效签名集合后，对区块 B(h) 的共识达成，并由成员节点向系统内其他不在分组内的节点告知共识已达 成。</p>
-<p>在 BFT-Store 方案和 PartitionChain 方案中，解码过程由主节点全网广播 decode 消息，所有诚实节点都必须参与到解码过程中，相较于全复制存储方案，带 来了额外的网络通信量。本方案的解码工作在一个由 n 个节点组成的分组内进 行，由主节点（也在分组内）向组内多播 decode 消息，当收到足够来自不同组内 节点的有效编码值集合 Fh(s) 后，进行解码。</p>
-<h3 id="编码与共识"><a href="#编码与共识" class="headerlink" title="编码与共识"></a>编码与共识</h3><p>本方案应用 (k, N)-RS 编码方案对每个一级分片进行编码，注意此处的 k 不再取值 N − 2F，而是<strong>令 k 等于分组的最小诚实节点数量 f + 1</strong></p>
-<p>对于一个新区块 B(h)，首先由主节点负责 在组内进行数据分片、编码与签名验证，随后将签名集合 H 与 commit 消息一起 在组内多播。当组内从节点 Ms 收到 F +1 个有效的签名集合后，将 其中对于自己所对应的编码值进行两次聚合，得到最终的聚合签名 σh,s（行 8-11）； 而主节点收到 F + 1 个有效的签名集合后，需要对全网范围内所有节点（除组内 成员外）的数字签名进行聚合，并通过 inform 消息 &lt; INF ORM, v, h, t, Ft , σh,t &gt; 将编码值 Ft 与聚合签名 σh,t 发送给对应节点 Nt，其中 v 为当前视图编号（行 14-18）。当共识完成且全网节点存储了对应的编码值与签名后，组内节点可丢弃 多余的编码值与信息。</p>
-<h3 id="解码与数据恢复"><a href="#解码与数据恢复" class="headerlink" title="解码与数据恢复"></a>解码与数据恢复</h3><p>当主节点收到来自客户端的请求时，将在当前视图分组内多播一个 decode 消息 &lt; DECODE, v, h, N, f + 1 &gt;，成员 Ms 收到来自主节点的 decode 消息后， 将本地存储的编码值集合 Fh(s) 以及数字签名 σh,s 发送给主节点。当主节点收到 了 <strong>f + 1</strong> 个来自不同从节点的验证通过的编码值集合后，证明此时分组未被拜占庭敌手控制，解码可正常进行。主节点通过解码，可得到每个一级分片 Bi(h) 对 应的二级分片集合：{bi,1(h), …, bi,k(h)}，将所有恢复得到的二级分片： b1,1(h), …, b1,k(h), …, br,1(h), …, br,k(h) 根据它们的索引 i 和 j 进行链接，即可得到原始区块 B(h)。如果计时算法超时或 这节点无法计算得到正确的结果，则可由组内成员发起 CE 流程更换当前视图并 重新选举分组。</p>
-<h3 id="视图更换与分组选举"><a href="#视图更换与分组选举" class="headerlink" title="视图更换与分组选举"></a>视图更换与分组选举</h3><h4 id="Viewchange-阶段。"><a href="#Viewchange-阶段。" class="headerlink" title="Viewchange 阶段。"></a><strong>Viewchange 阶段</strong>。</h4><p><strong>Viewchange 阶段</strong>。当成员 Mi 检测到超时时，向<strong>组内多播</strong> viewchange 消息 &lt; V IEW CHANGE, v + 1, p, ba, da, be, de, C, A, i &gt;，其中 p 是该节点已知的最近 一个稳定的的检查点编号, ba 是本分组最新共识的区块且 da 是其消息摘要，be 是 当前高度接受的区块且 de 是其消息摘要，C 和 A 分别是 de 和 da 的数字证书。当 其他成员节点 Mj 收到 viewchange 消息后，验证以下信息，如果验证都通过，当 成员节点接受消息摘要 da 和 de：</p>
-<ol>
-<li><p>ba 确实是本分组最新共识的区块且 be 是当前高度接受的区块</p>
-</li>
-<li><p>da 和 de 确实分别是 ba 和 be 的消息摘要</p>
-</li>
-<li><p>C 和 A 是合法的数字证书</p>
-</li>
-</ol>
-<h4 id="Election-阶段。"><a href="#Election-阶段。" class="headerlink" title="Election 阶段。"></a>Election 阶段。</h4><p><strong>Election 阶段。</strong>当收到超过 <strong>f + 1</strong> 个通过验证的 viewchange 消息后，成员 Mi 生成一个对于新视图 v + 1 的数字证书 V，并<strong>向全网广播</strong> election 消息 &lt; ELECT ION, v + 1, ba, da, be, de, V &gt;。当节点收到 election 消息后，验证以下信息：</p>
-<ol>
-<li>当前视图编号小于消息内指定的下一视图编号</li>
-<li><strong>V 是合法的数字证书</strong></li>
-<li>da 和 de 确实分别是 ba 和 be 的消息摘要</li>
-</ol>
-<p><img src="C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20230825194935954.png" alt="image-20230825194935954"></p>
-<h4 id="Ready-阶段。"><a href="#Ready-阶段。" class="headerlink" title="Ready 阶段。"></a>Ready 阶段。</h4><p><strong>Ready 阶段。</strong>随后，对于选举出的新分组 Cv+1，选出成员中在合 CRED 中 最小的哈希值所对应的节点作为主节点 Lv+1，即： Lv+1 &#x3D; MIN(CRED, 1) </p>
-<p>分组内成员节点向主节点发送一个 ready 消息 &lt; READY, v + 1, da, de &gt;，并启动 计时器 T IME，如果计时超过 2∆ 仍未收到来自新节点的 newview 消息，则在 组内多播对当前视图 v + 1 的 viewchange 消息，以发起新一轮的视图更换。 </p>
-<h4 id="Newview-阶段。"><a href="#Newview-阶段。" class="headerlink" title="Newview 阶段。"></a>Newview 阶段。</h4><p><strong>Newview 阶段。</strong>当收到 2f + 1 个通过验证的 ready 消息后，主节点 Lv+1 生 成一个对应的 ready 证书 R，并向全网广播 newview 消息 &lt; NEW V IEW, v + 1, da, de, C, A, V, R &gt;，节点 Nj 收到 newview 消息后验证一下信息：</p>
-<ol>
-<li>ba 确实是本分组最新共识的区块且 be 是当前高度接受的区块 </li>
-<li>v + 1 是合法的新视图编号 </li>
-<li>C, A, V 是合法的数字证书 </li>
-<li>Lv 是分组 Cv+1 中的主节点，且证书 R 合法 如果以上验证都通过，则节点 Nj 进入视图 v + 1，且认可新分组 Cv+1。</li>
-</ol>
-<h3 id="安全性分析"><a href="#安全性分析" class="headerlink" title="安全性分析"></a>安全性分析</h3><p>本章着重于讨论当<strong>分组内的拜占庭节点数超过 f + 1 后</strong>，由诚实节点发起视图更换与分组选举阶段的安全性与活性。</p>
-<p>文章所分析的三种情形，都是在错误的ready消息发送完之后，无法进入错误的Newview阶段，从而使错误行为终止，保证了视图更换的正确性。起初我认为是因为拜占庭节点不可能超过2f+1，所以主节点不会收到2f+1个<strong>通过验证</strong>的消息，所以无法进入错误的Newview阶段。但第二次阅读时，发现这是在分组内，而分组内的拜占庭节点是可能超过f个达到2f+1以上的，所以之前的想法错误，最后重读该章时才发现，作者在第四章开头时的敌手模型中已说过“<strong>敌手攻击节点需要花费一定的时间，且不能同时攻击多个节点</strong>”，这句假设使得，分组内的拜占庭节点可能大于f，但绝不可能在<strong>短时间</strong>内就大于2f，所以在这段时间内，系统可以正常的进行视图更换，拜占庭节点不可能操控视图更换。</p>
-<p>即当拜占庭节点刚超过f时，会无法达成共识，因为commit阶段需要收到2f+1个消息，而此时拜占庭节点还没到达2f+1，所以无法达成共识，会引起视图更换，而在视图更换时，拜占庭节点没到达2f+1，就无法进入错误的Newview阶段，但诚实节点个数也没有达到2f+1，不知道为什么可以进入Newview阶段</p>
-<p><strong>基于伪造的election 消息 E′ 的任何消息无法通过验证</strong></p>
-<h3 id="why-3"><a href="#why-3" class="headerlink" title="why"></a>why</h3><ol>
-<li><p>注意此处的 k 不再取值 N − 2F，而是令 k 等于分组的<strong>最小诚实节点数量 f + 1</strong>，由于 f + 1 是一个小于 N − 2F 的正整数，应用 (f + 1, N)-RS 编码仍能保证数据完整性。   P43</p>
-<p>为什么最小的诚实节点数量是f+1，因为小于这个数会无法达成共识，引起视图更换</p>
-</li>
-<li><p>当收到 <strong>2f + 1</strong> 个通过验证的 ready 消息后     P48</p>
-</li>
-<li><p>情形三时：在 3∆ 时刻，正确分组 CT 的主节点广播 newview 消息，CF 的成员丢弃错 误的 election 消息 E‘     为什么？    P49</p>
-<p>因为无法进入Newview阶段</p>
-</li>
-</ol>
-<p>PBFT一致性流程</p>
-<p>客户端向主节点P发送请求，主节点向其余节点发送pre-prepare消息，其余节点Ni收到通过验证的pre-prepare消息后，发向其他节点（不包括主节点）发送prepare消息，当节点Ni收到至少2F个通过验证的prepare消息（包括该节点），后进入commit阶段，向其余所有节点（包括主节点）发送commit消息，当节点Ni收到2F+1个通过验证的commit消息后，向客户端回复reply，当客户端收到F+1个reply消息后，达成共识，否则共识失败，启动视图更换流程</p>
-<p>RS编码流程</p>
-<p>主节点根据区块大小，将区块分成一级分片、二级分片，然后对二级分片进行（N-2F,N）的RS编码，产生N个编码片段，</p>
-<p>第三章流程</p>
-<p>当一个新区 块 B(h) 生成，节点 Ns 需要做如下工作：首先将区块分割成 r 个一级分片（行 1），再将每个一级分片分割成 k 个二级分片（行 3），对每个一级分片 Bi 应用 (N − 2F, N)-RS 编码方案并签名，得到对应的编码值集合 Fi 和签名集合 Hi（行 5-6）。当完成对所有的一级分片的编码和签名后，将签名集合捎带于 commit 消 息一起向全网广播</p>
-<p>当节点 Ns 收到 F + 1 个有效的 commit 消息后，将其中其他节点对于一级分 片编码值 fh,i(s) 的签名聚合成一个签名 σh,i,s（行 12-16），最后对所有一级分片 的签名再次聚合得 σh,s 并与其对应的编码值集合 F 一起存储，丢弃其余编码值 与冗余消息</p>
-<p>解码时，主节点对全网广播decode消息，收到decode消息的节点，要将编码集合和签名发送给主节点，当主节点收到至少N-2F个通过验证的消息后，可以进行解码</p>
-<p>第四章流程</p>
-<p>将编码、解码和共识过程放入分组内，而不是全网</p>
-<p>各个数值，怎么来的</p>
-<p>系统重初始化</p>
-<p>三种情况，</p>
-<ol>
-<li>加入节点：新节点先解码获得原区块的二级分片，然后通过（N-2F,N+1）RS编码，保存该节点的编码片段和签名，其余节点不动</li>
-<li>删除节点（当前节点数大于N）：直接删</li>
-<li>删除节点（当前节点数不大于N）：主节点先解码获得原信息，然后通过（N-1-2F,‘总节点数’）RS编码，全部节点都要换</li>
-</ol>
-<p>视图切换流程</p>
-<p>节点行为监管算法</p>
-<p>节点可以通过对数字签名的验证来发现其他节点的 恶意行为，假设发现节点 Ns 发送的消息不合法时，会广播一个 detected 消息 &lt; DET ECT ED, fh,i(s), s &gt; 指明节点 Ns 伪造消息。当收到 F + 1 个指明节点 Ns 作恶的 detected 消息，将更新数组中节点 Ns 的信誉值。</p>
-<p>设置信誉值，</p>
- 
-      <!-- reward -->
-      
-    </div>
-    
-
-    <!-- copyright -->
-    
-    <footer class="article-footer">
-       
-    </footer>
-  </div>
-
-   
-   
-  
-</article>
-
-    
-    <article
-  id="post-hello-world"
-  class="article article-type-post"
-  itemscope
-  itemprop="blogPost"
-  data-scroll-reveal
->
-  <div class="article-inner">
-    
-    <header class="article-header">
-       
-<h2 itemprop="name">
-  <a class="article-title" href="/2023/09/11/hello-world/"
-    >Hello cyc</a> 
-</h2>
- 
-
-      
-    </header>
-     
-    <div class="article-meta">
-      <a href="/2023/09/11/hello-world/" class="article-date">
-  <time datetime="2023-09-11T13:25:02.729Z" itemprop="datePublished">2023-09-11</time>
-</a>    
-    </div>
-      
-    <div class="article-entry" itemprop="articleBody">
-       
-  <p>cyc Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
- 
-      <!-- reward -->
-      
-    </div>
-    
-
-    <!-- copyright -->
-    
-    <footer class="article-footer">
-       
-    </footer>
-  </div>
-
-   
-   
-  
-</article>
-
-    
-  </article>
-  
-
-  
-</section>
-</div>
-
-      <footer class="footer">
-  <div class="outer">
-    <ul>
-      <li>
-        Copyrights &copy;
-        2015-2023
-        <i class="ri-heart-fill heart_icon"></i> John Doe
-      </li>
-    </ul>
-    <ul>
-      <li>
-        
-      </li>
-    </ul>
-    <ul>
-      <li>
-        
-        
-        <span>
-  <span><i class="ri-user-3-fill"></i>Visitors:<span id="busuanzi_value_site_uv"></span></span>
-  <span class="division">|</span>
-  <span><i class="ri-eye-fill"></i>Views:<span id="busuanzi_value_page_pv"></span></span>
-</span>
-        
-      </li>
-    </ul>
-    <ul>
-      
-    </ul>
-    <ul>
-      
-    </ul>
-    <ul>
-      <li>
-        <!-- cnzz统计 -->
-        
-        <script type="text/javascript" src='https://s9.cnzz.com/z_stat.php?id=1278069914&amp;web_id=1278069914'></script>
-        
-      </li>
-    </ul>
-  </div>
-</footer>    
-    </main>
-    <div class="float_btns">
-      <div class="totop" id="totop">
-  <i class="ri-arrow-up-line"></i>
-</div>
-
-<div class="todark" id="todark">
-  <i class="ri-moon-line"></i>
-</div>
-
-    </div>
-    <aside class="sidebar on">
-      <button class="navbar-toggle"></button>
-<nav class="navbar">
-  
-  <div class="logo">
-    <a href="/"><img src="/images/ayer-side.svg" alt="Hexo"></a>
-  </div>
-  
-  <ul class="nav nav-main">
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="/">主页</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="/archives">归档</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="/categories">分类</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="/tags">标签</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="/tags/%E6%97%85%E8%A1%8C/">旅行</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link" target="_blank" rel="noopener" href="http://shenyu-vip.lofter.com">摄影</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="/friends">友链</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="/2019/about">关于我</a>
-    </li>
-    
-  </ul>
-</nav>
-<nav class="navbar navbar-bottom">
-  <ul class="nav">
-    <li class="nav-item">
-      
-      <a class="nav-item-link nav-item-search"  title="Search">
-        <i class="ri-search-line"></i>
-      </a>
-      
-      
-      <a class="nav-item-link" target="_blank" href="/atom.xml" title="RSS Feed">
-        <i class="ri-rss-line"></i>
-      </a>
-      
-    </li>
-  </ul>
-</nav>
-<div class="search-form-wrap">
-  <div class="local-search local-search-plugin">
-  <input type="search" id="local-search-input" class="local-search-input" placeholder="Search...">
-  <div id="local-search-result" class="local-search-result"></div>
-</div>
-</div>
-    </aside>
-    <div id="mask"></div>
-
-<!-- #reward -->
-<div id="reward">
-  <span class="close"><i class="ri-close-line"></i></span>
-  <p class="reward-p"><i class="ri-cup-line"></i>请我喝杯咖啡吧~</p>
-  <div class="reward-box">
-    
-    <div class="reward-item">
-      <img class="reward-img" src="/images/alipay.jpg">
-      <span class="reward-type">支付宝</span>
-    </div>
-    
-    
-    <div class="reward-item">
-      <img class="reward-img" src="/images/wechat.jpg">
-      <span class="reward-type">微信</span>
-    </div>
-    
-  </div>
-</div>
-    
-<script src="/js/jquery-3.6.0.min.js"></script>
- 
-<script src="/js/lazyload.min.js"></script>
-
-<!-- Tocbot -->
-
-<script src="https://cdn.staticfile.org/jquery-modal/0.9.2/jquery.modal.min.js"></script>
-<link
-  rel="stylesheet"
-  href="https://cdn.staticfile.org/jquery-modal/0.9.2/jquery.modal.min.css"
-/>
-<script src="https://cdn.staticfile.org/justifiedGallery/3.8.1/js/jquery.justifiedGallery.min.js"></script>
-
-<script src="/dist/main.js"></script>
-
-<!-- ImageViewer -->
- <!-- Root element of PhotoSwipe. Must have class pswp. -->
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-
-    <!-- Background of PhotoSwipe. 
-         It's a separate element as animating opacity is faster than rgba(). -->
-    <div class="pswp__bg"></div>
-
-    <!-- Slides wrapper with overflow:hidden. -->
-    <div class="pswp__scroll-wrap">
-
-        <!-- Container that holds slides. 
-            PhotoSwipe keeps only 3 of them in the DOM to save memory.
-            Don't modify these 3 pswp__item elements, data is added later on. -->
-        <div class="pswp__container">
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-        </div>
-
-        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-        <div class="pswp__ui pswp__ui--hidden">
-
-            <div class="pswp__top-bar">
-
-                <!--  Controls are self-explanatory. Order can be changed. -->
-
-                <div class="pswp__counter"></div>
-
-                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-
-                <button class="pswp__button pswp__button--share" style="display:none" title="Share"></button>
-
-                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-
-                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-
-                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
-                <!-- element will get class pswp__preloader--active when preloader is running -->
-                <div class="pswp__preloader">
-                    <div class="pswp__preloader__icn">
-                        <div class="pswp__preloader__cut">
-                            <div class="pswp__preloader__donut"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                <div class="pswp__share-tooltip"></div>
-            </div>
-
-            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-            </button>
-
-            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-            </button>
-
-            <div class="pswp__caption">
-                <div class="pswp__caption__center"></div>
-            </div>
-
-        </div>
-
-    </div>
-
-</div>
-
-<link rel="stylesheet" href="https://cdn.staticfile.org/photoswipe/4.1.3/photoswipe.min.css">
-<link rel="stylesheet" href="https://cdn.staticfile.org/photoswipe/4.1.3/default-skin/default-skin.min.css">
-<script src="https://cdn.staticfile.org/photoswipe/4.1.3/photoswipe.min.js"></script>
-<script src="https://cdn.staticfile.org/photoswipe/4.1.3/photoswipe-ui-default.min.js"></script>
-
-<script>
-    function viewer_init() {
-        let pswpElement = document.querySelectorAll('.pswp')[0];
-        let $imgArr = document.querySelectorAll(('.article-entry img:not(.reward-img)'))
-
-        $imgArr.forEach(($em, i) => {
-            $em.onclick = () => {
-                // slider展开状态
-                // todo: 这样不好，后面改成状态
-                if (document.querySelector('.left-col.show')) return
-                let items = []
-                $imgArr.forEach(($em2, i2) => {
-                    let img = $em2.getAttribute('data-idx', i2)
-                    let src = $em2.getAttribute('data-target') || $em2.getAttribute('src')
-                    let title = $em2.getAttribute('alt')
-                    // 获得原图尺寸
-                    const image = new Image()
-                    image.src = src
-                    items.push({
-                        src: src,
-                        w: image.width || $em2.width,
-                        h: image.height || $em2.height,
-                        title: title
-                    })
-                })
-                var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, {
-                    index: parseInt(i)
-                });
-                gallery.init()
-            }
-        })
-    }
-    viewer_init()
-</script> 
-<!-- MathJax -->
-
-<!-- Katex -->
-
-<!-- busuanzi  -->
- 
-<script src="/js/busuanzi-2.3.pure.min.js"></script>
- 
-<!-- ClickLove -->
-
-<!-- ClickBoom1 -->
-
-<!-- ClickBoom2 -->
-
-<!-- CodeCopy -->
- 
-<link rel="stylesheet" href="/css/clipboard.css">
- <script src="https://cdn.staticfile.org/clipboard.js/2.0.10/clipboard.min.js"></script>
-<script>
-  function wait(callback, seconds) {
-    var timelag = null;
-    timelag = window.setTimeout(callback, seconds);
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Hexo',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2023-09-12 00:23:55'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
   }
-  !function (e, t, a) {
-    var initCopyCode = function(){
-      var copyHtml = '';
-      copyHtml += '<button class="btn-copy" data-clipboard-snippet="">';
-      copyHtml += '<i class="ri-file-copy-2-line"></i><span>COPY</span>';
-      copyHtml += '</button>';
-      $(".highlight .code pre").before(copyHtml);
-      $(".article pre code").before(copyHtml);
-      var clipboard = new ClipboardJS('.btn-copy', {
-        target: function(trigger) {
-          return trigger.nextElementSibling;
-        }
-      });
-      clipboard.on('success', function(e) {
-        let $btn = $(e.trigger);
-        $btn.addClass('copied');
-        let $icon = $($btn.find('i'));
-        $icon.removeClass('ri-file-copy-2-line');
-        $icon.addClass('ri-checkbox-circle-line');
-        let $span = $($btn.find('span'));
-        $span[0].innerText = 'COPIED';
-        
-        wait(function () { // 等待两秒钟后恢复
-          $icon.removeClass('ri-checkbox-circle-line');
-          $icon.addClass('ri-file-copy-2-line');
-          $span[0].innerText = 'COPY';
-        }, 2000);
-      });
-      clipboard.on('error', function(e) {
-        e.clearSelection();
-        let $btn = $(e.trigger);
-        $btn.addClass('copy-failed');
-        let $icon = $($btn.find('i'));
-        $icon.removeClass('ri-file-copy-2-line');
-        $icon.addClass('ri-time-line');
-        let $span = $($btn.find('span'));
-        $span[0].innerText = 'COPY FAILED';
-        
-        wait(function () { // 等待两秒钟后恢复
-          $icon.removeClass('ri-time-line');
-          $icon.addClass('ri-file-copy-2-line');
-          $span[0].innerText = 'COPY';
-        }, 2000);
-      });
-    }
-    initCopyCode();
-  }(window, document);
-</script>
- 
-<!-- CanvasBackground -->
-
-<script>
-  if (window.mermaid) {
-    mermaid.initialize({ theme: "forest" });
+  .justified-gallery img {
+    opacity: 1
   }
-</script>
 
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
 
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
+      const link = document.createElement('link')
+      link.rel = 'stylesheet'
+      link.href = url
+      if (id) link.id = id
+      link.onerror = reject
+      link.onload = link.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        link.onload = link.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(link)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
     
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
     
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">2</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div><hr class="custom-hr"/></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="Hexo"><span class="site-name">Hexo</span></a></span><div id="menus"><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">Hexo</h1></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/09/11/%E5%9F%BA%E4%BA%8E%E7%BC%96%E7%A0%81%E7%9A%84%E8%AE%B8%E5%8F%AF%E9%93%BE%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8%E6%96%B9%E6%A1%88%E7%A0%94%E7%A9%B6/" title="基于编码的许可链数据存储方案研究">基于编码的许可链数据存储方案研究</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-09-11T13:30:29.000Z" title="Created 2023-09-11 21:30:29">2023-09-11</time></span></div><div class="content">区块链区块链本质上是一个去中心化数据库。是一种分布式数据存储，点对点传输，共识机制，加密算法等计算机技术的新型应用模式。
+举个例子：
+比如说小明找大康借一百块钱，但大康怕他赖账，于是就找来村长做公证，并记录下这笔账，这个就叫中心化。但如果，你不找村长，直接拿个喇叭在村里大喊“我大康借给小明一百块钱！请大家记在账本里”，这个就叫去中心化
+特点：
 
-  </div>
-</body>
+去中心化
+开放性
+安全
+不可篡改：如果要 删除或修改某个区块中的数据，就必须重新生成链接在它之后的所有区块；而共 识机制的存在使得重新生成大量区块的成本极高，几乎是不可能实现的。为什么？
+匿名性
 
-</html>
+公链？私链? 联盟链？侧链?区块链目前可以分为四类：公链，私链，联盟链以及侧链。
+
+公链——人人可参与
+公链是指任何人都可读取的、任何人都能发送交易且交易能获得有效确认的、任何人都能参与其中共识过程的区块链。
+
+私链——权利掌握在少数人手里 
+私链是指其写入权限仅在一个组织手里的区块链。读取权限或者对外开放，或者被任意程度地进行了限制。相关的应用囊括数据库管理、审计、甚至一个公司，尽管在有些情况下希望它能有公共的可审计性，但在很多的情形下，公共的可读 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/09/11/hello-world/" title="Hello cyc">Hello cyc</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-09-11T13:25:02.729Z" title="Created 2023-09-11 21:25:02">2023-09-11</time></span></div><div class="content">cyc Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
+Quick StartCreate a new post1$ hexo new &quot;My New Post&quot;
+
+More info: Writing
+Run server1$ hexo server
+
+More info: Server
+Generate static files1$ hexo generate
+
+More info: Generating
+Deploy to remote sites1$ hexo deploy
+
+More info: Deployment
+</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">John Doe</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">2</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>Announcement</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/09/11/%E5%9F%BA%E4%BA%8E%E7%BC%96%E7%A0%81%E7%9A%84%E8%AE%B8%E5%8F%AF%E9%93%BE%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8%E6%96%B9%E6%A1%88%E7%A0%94%E7%A9%B6/" title="基于编码的许可链数据存储方案研究">基于编码的许可链数据存储方案研究</a><time datetime="2023-09-11T13:30:29.000Z" title="Created 2023-09-11 21:30:29">2023-09-11</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/09/11/hello-world/" title="Hello cyc">Hello cyc</a><time datetime="2023-09-11T13:25:02.729Z" title="Created 2023-09-11 21:25:02">2023-09-11</time></div></div></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>Archives</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/09/"><span class="card-archive-list-date">September 2023</span><span class="card-archive-list-count">2</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>Info</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">Article :</div><div class="item-count">2</div></div><div class="webinfo-item"><div class="item-name">UV :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">PV :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">Last Push :</div><div class="item-count" id="last-push-date" data-lastPushDate="2023-09-11T16:23:55.123Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2023 By John Doe</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="Switch Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between single-column and double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="Back To Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
